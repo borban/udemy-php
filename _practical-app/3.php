@@ -25,6 +25,41 @@
 
  */
 
+//1
+if(false){
+    echo "I hate PHP";
+}
+elseif(0 < -1) {
+    echo "I kind of like PHP";
+}
+else{
+    echo "I love PHP" . "<br>";
+}
+
+for($i=0; $i<10; $i++){
+    echo $i . "<br>";
+}
+
+switch(5){
+    case 0:
+        echo "0";
+        break;
+    case 1:
+        echo "1";
+        break;
+    case 2:
+        echo "2";
+        break;
+    case 3:
+        echo "3";
+        break;
+    case 4:
+        echo "4";
+        break;
+    default:
+        echo "I am default";
+
+}
 	
 ?>
 
