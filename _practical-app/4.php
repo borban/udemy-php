@@ -23,6 +23,17 @@
 
  */
 
+function addNums(){
+    return 5 + 5;
+}
+
+echo addNums() . "<br>";
+
+function multiplyNumbers($num1, $num2){
+    return $num1 * $num2;
+}
+
+echo multiplyNumbers(5,5);
 	
 ?>
 
