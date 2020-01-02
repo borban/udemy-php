@@ -25,6 +25,13 @@
 
  */
 
+
+echo ceil(6.2) . "<br>";
+echo str_replace("my", "this", "my search string") . "<br>";
+
+$myArray = [123,32,456,989];
+
+print_r($myArray);
 	
 ?>
 
